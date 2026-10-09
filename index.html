@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Саша и Архип — монтаж клипов и дизайн</title>
+  <meta name="description" content="Монтаж вертикальных клипов для Shorts, TikTok и Reels. Превью, обложки и логотипы для стримеров и брендов.">
+  <meta name="theme-color" content="#111110">
+  <meta name="color-scheme" content="dark">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Саша и Архип — монтаж клипов и дизайн">
+  <meta property="og:description" content="Монтаж вертикальных клипов для Shorts, TikTok и Reels. Превью, обложки и логотипы для стримеров и брендов.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Unbounded:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/content.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <!-- Тексты на странице берутся из файла js/content.js — меняйте их там. -->
+
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo" data-i18n="brand">Саша и Архип</a>
+
+      <nav class="nav" id="nav" aria-label="Разделы">
+        <a href="#works" data-i18n="nav.works">Работы</a>
+        <a href="#services" data-i18n="nav.services">Цены</a>
+        <a href="#about" data-i18n="nav.about">О нас</a>
+        <a href="#contacts" data-i18n="nav.contacts">Контакты</a>
+      </nav>
+
+      <div class="header__actions">
+        <div class="lang" id="lang" role="group" aria-label="Язык / Language">
+          <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Меню" data-i18n-aria="nav.menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- 1. ПЕРВЫЙ ЭКРАН -->
+    <section class="hero" id="top">
+      <div class="container">
+        <h1 class="hero__title" data-i18n="hero.title">Монтируем вертикальные клипы и делаем дизайн для стримеров и брендов</h1>
+        <div class="hero__bottom">
+          <p class="hero__tags" data-i18n="hero.tags">Shorts, TikTok, Reels, превью, обложки, логотипы</p>
+          <a href="#contacts" class="btn" data-i18n="hero.cta">Связаться</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. РАБОТЫ -->
+    <section class="section section--works" id="works">
+      <div class="container">
+        <h2 class="section__title" data-i18n="works.title">Работы</h2>
+
+        <div class="works-group" id="group-vertical">
+          <h3 class="works-group__title"><span data-i18n="works.vertical">Вертикальные клипы</span> <span class="works-group__format">9:16</span></h3>
+          <div class="grid-vertical" id="videos-vertical"></div>
+        </div>
+
+        <div class="works-group" id="group-horizontal">
+          <h3 class="works-group__title"><span data-i18n="works.horizontal">Горизонтальные видео</span> <span class="works-group__format">16:9</span></h3>
+          <div class="grid-horizontal" id="videos-horizontal"></div>
+        </div>
+
+        <div class="works-group" id="group-design">
+          <h3 class="works-group__title"><span data-i18n="works.design">Дизайн</span></h3>
+          <div class="masonry" id="designs"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. УСЛУГИ И ЦЕНЫ -->
+    <section class="section" id="services">
+      <div class="container split">
+        <div class="split__side">
+          <h2 class="section__title" data-i18n="services.title">Услуги и цены</h2>
+          <p class="section__lead" data-i18n="services.lead">Цена зависит от длины и сроков. Напишите, что нужно, — назовём точную.</p>
+          <a href="#contacts" class="link-arrow" data-i18n="services.cta">Узнать цену</a>
+        </div>
+        <ul class="price-list" id="services-list"></ul>
+      </div>
+    </section>
+
+    <!-- 4. О НАС -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title" data-i18n="about.title">О нас</h2>
+        <div class="team" id="team-list"></div>
+      </div>
+    </section>
+
+    <!-- 5. КОНТАКТЫ -->
+    <section class="section" id="contacts">
+      <div class="container split">
+        <div class="split__side">
+          <h2 class="section__title" data-i18n="contacts.title">Связаться</h2>
+          <p class="section__lead" data-i18n="contacts.lead">Напишите, что нужно сделать и к какому сроку.</p>
+        </div>
+        <ul class="contact-list" id="contacts-list"></ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> <span data-i18n="brand">Саша и Архип</span></p>
+      <a href="#top" class="footer__top" data-i18n="footer.top">Наверх</a>
+    </div>
+  </footer>
+
+  <!-- Окно для просмотра дизайна в полном размере -->
+  <dialog class="lightbox" id="lightbox">
+    <button type="button" class="lightbox__close" id="lightbox-close" aria-label="Закрыть" data-i18n-aria="close">×</button>
+    <div class="lightbox__body" id="lightbox-body"></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
