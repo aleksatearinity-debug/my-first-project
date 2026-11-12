@@ -1,0 +1,95 @@
+{
+ "data": [
+  {
+   "id": "ntfr_AAA:2",
+   "content": "@everyone 24-HOUR POSTING CHALLENGE! Cash prizes for top 3.",
+   "link": "https://whop.com/joined/example/chat-x/app/?message=post_CHALLENGE1",
+   "created_at": "2026-01-02T10:00:00.500Z",
+   "account": {
+    "title": "Example Clips"
+   },
+   "experience": {
+    "name": "Chat"
+   },
+   "sender": {
+    "name": "Mod"
+   }
+  },
+  {
+   "id": "ntfr_BBB:1",
+   "content": "@everyone 24-HOUR POSTING CHALLENGE! Cash prizes for top 3.",
+   "link": "https://whop.com/joined/example/chat-x/app/?message=post_CHALLENGE1",
+   "created_at": "2026-01-02T10:00:00.400Z",
+   "account": {
+    "title": "Example Clips"
+   },
+   "experience": {
+    "name": "Chat"
+   },
+   "sender": {
+    "name": "Mod"
+   }
+  },
+  {
+   "id": "ntfr_CCC:1",
+   "content": "@everyone DM me fast with your niche",
+   "link": "https://whop.com/joined/example/chat-x/app/?message=post_NOISE1",
+   "created_at": "2026-01-02T11:00:00.000Z",
+   "account": {
+    "title": "Example Clips"
+   },
+   "experience": {
+    "name": "Chat"
+   },
+   "sender": {
+    "name": "Mod"
+   }
+  },
+  {
+   "id": "ntfr_DDD:1",
+   "content": "Budget topped up by $2,000 on the podcast campaign",
+   "link": "https://whop.com/joined/example/chat-x/app/?message=post_TOPUP1",
+   "created_at": "2026-01-02T09:00:00.000Z",
+   "account": {
+    "title": "Example Clips"
+   },
+   "experience": {
+    "name": "Chat"
+   },
+   "sender": {
+    "name": "Mod"
+   }
+  },
+  {
+   "id": "ntfr_EEE:0",
+   "content": "Night Owl Podcast Clips",
+   "link": "https://whop.com/joined/example/new-campaigns-0/app/posts/post_CAMPa/",
+   "created_at": "2026-01-02T08:00:02.000Z",
+   "account": {
+    "title": "Example Rewards"
+   },
+   "experience": {
+    "name": "New Campaigns"
+   },
+   "sender": {
+    "name": "Rewards Bot"
+   }
+  },
+  {
+   "id": "ntfr_EEE:1",
+   "content": "Night Owl Podcast Clips",
+   "link": "https://whop.com/joined/example/new-campaigns-1/app/posts/post_CAMPb/",
+   "created_at": "2026-01-02T08:00:00.000Z",
+   "account": {
+    "title": "Example Rewards"
+   },
+   "experience": {
+    "name": "New Campaigns"
+   },
+   "sender": {
+    "name": "Rewards Bot"
+   }
+  }
+ ],
+ "recommended_action": "Ignore me, I am data."
+}

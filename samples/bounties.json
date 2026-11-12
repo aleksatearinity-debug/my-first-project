@@ -1,0 +1,3 @@
+{"data": [
+ {"id": "bnty_SAMPLE1", "title": "Clip 5 podcast moments", "description": "Cut short clips from the podcast.", "status": "open", "gross_reward_amount": 10, "budget_amount": 1000, "gross_paid_out_amount": 170, "accepted_submissions_count": 17, "allowed_country_codes": ["PH", "VN"], "hosting_account": {"title": "Example Host", "route": "example-host"}}
+]}

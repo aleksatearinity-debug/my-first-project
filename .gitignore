@@ -1,0 +1,5 @@
+# Whop Radar: private data stays out of the public repository
+radar.db
+radar.html
+data/
+__pycache__/

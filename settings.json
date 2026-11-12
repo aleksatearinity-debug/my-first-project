@@ -1,0 +1,47 @@
+{
+  "_notes": {
+    "what_is_this": "Every limit the radar uses. Change a number, save the file, run 'python3 radar.py build' again.",
+    "max_min_views": "FAIL when a campaign only pays after more than this many views ('about 1K', so a little slack).",
+    "weights": "How many points each part of the 0-100 score is worth. They should add up to 100.",
+    "unknown numbers": "A part whose number is unknown gets half its points, so missing data neither wins nor loses."
+  },
+
+  "my_country_code": "VN",
+  "my_country_names": ["vietnam", "viet nam"],
+
+  "target_rate_per_1k": 1.5,
+  "max_tier1_audience_percent": 40,
+  "max_min_views": 1100,
+  "blocked_organisers": ["clip farm"],
+  "blocked_brands": ["sega"],
+
+  "weights": {
+    "rate": 30,
+    "budget_left": 20,
+    "clippers": 15,
+    "burn": 15,
+    "footage": 10,
+    "streamer_podcast": 10
+  },
+  "budget_left_for_full_points": 5000,
+  "clippers_for_zero_points": 500,
+  "days_left_for_full_points": 14,
+  "burn_window_days": 7,
+  "footage_keywords": ["vod", "vods", "full episode", "full episodes", "hours of", "livestream", "live stream", "streams", "podcast", "content library", "google drive", "content bank", "any clip", "any video"],
+  "streamer_podcast_keywords": ["streamer", "stream", "twitch", "kick", "podcast", "irl"],
+
+  "noise_patterns": [
+    "\\bdm\\s+(me|us|fast|now|asap)\\b",
+    "\\bdm\\b.{0,40}\\bniche\\b",
+    "\\b(message|msg|pm|inbox)\\s+me\\b",
+    "\\bcheck\\s+(your\\s+)?dms?\\b"
+  ],
+
+  "duplicate_window_minutes": 10,
+
+  "top_picks_count": 10,
+  "dying_days": 3,
+  "dying_budget_left_percent": 10,
+  "needs_action_days": 3,
+  "first_run_notification_limit": 40
+}
